@@ -39,6 +39,8 @@ Ultimately, the Random Forest classifier performed best for our task. We began w
 
 ![Model Comparison](model_comparison_roc_plot.jpg)
 
+![img](feature_importance_Random_Forest_1.png)
+
 ### Deployment
 We deployed a flask app that uses live streaming data, makes Fraud predictions, and logs predictions.
 
