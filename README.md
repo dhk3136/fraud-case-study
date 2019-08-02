@@ -15,31 +15,31 @@ The full dataset is composed of over 14,000 events with various numerical and ca
 
 In exploratory data analysis, we found the following features to show large variable between Fraud and non-Fraud events.
 
-![Analysis of Body Length on Fraud](Analysis_of_Body_Length_on_Fraud_boxplot.jpg)  
+![Analysis of Body Length on Fraud](img/Analysis_of_Body_Length_on_Fraud_boxplot.jpg)  
 
-![img](Analysis_of_Event_Posting_boxplot.jpg)
+![img](img/Analysis_of_Event_Posting_boxplot.jpg)
 
-![img](Analysis_of_Description_boxplot.jpg)
+![img](img/Analysis_of_Description_boxplot.jpg)
 
-![img](Analysis_of_Event_Posting_boxplot.jpg)
+![img](img/Analysis_of_Event_Posting_boxplot.jpg)
 
-![Analysis of Body Length on Fraud](Analysis_of_delivery_method_box.jpg)
+![Analysis of Body Length on Fraud](img/Analysis_of_delivery_method_box.jpg)
 
-These features, among others, were used for modeling. After dummied categorial features, we were left with 228 features.
+These features, among others, were used for modeling. Along with rigorous feature engineering and the conversion to dummied categorial features, we were left with 228 features. After conversion to binary classification, we removed those features with little utility or viable relationships according to our EDA.
 
 
 ### Modeling   
-Ultimately, the Random Forest classifier performed best for our task. We began with 43 features and concluded with 228. Using feature engineering, we converted all columns for binary classification, removing those with little utility or viable relationships according to our EDA.  
+Ultimately, the Random Forest classifier performed best for our task. Our boosted models, XGBoost and Gradient Boosting, also performed well and comparably to Random Forest. Naive Bayes Classification, on the other hand, lagged behind the others by a considerable amount. Ultimately, the choice to go with Random Forest was primarily one aimed at interpretibility, drawing out feature importances, and with a consideration of audience.
 
-![Model Comparison](recall_prec.png)
+![Model Comparison](img/recall_prec.png)
 
-![Model Comparison](F1.png)
+![Model Comparison](img/F1.png)
 
-![img](screenshot.png)
+![img](img/screenshot.png)
 
-![Model Comparison](model_comparison_roc_plot.jpg)
+![Model Comparison](img/model_comparison_roc_plot.jpg)
 
-![img](feature_importance_Random_Forest_1.png)
+![img](img/feature_importance_Random_Forest_1.png)
 
 ### Deployment
 We deployed a flask app that uses live streaming data, makes Fraud predictions, and logs predictions.
