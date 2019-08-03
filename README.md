@@ -33,7 +33,7 @@ Ultimately, the Random Forest classifier performed best for our task. Our booste
 
 ![Model Comparison](img/recall_prec.png)
 
-![Model Comparison](img/F1.png)
+![Model Comparison](img/F_1.png)
 
 ![img](img/model_comparison.png)
 
