@@ -1,5 +1,5 @@
 # Case Study - Predicting Fraud  
-![lead_img](img/fraud_case_study_dark_room)
+![lead photo](img/fraud_case_study_dark_room.png)
 
 - Daniel Kim
 
