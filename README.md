@@ -15,7 +15,7 @@ Tasked with predicting fraud for an event-ticketing company:
 ## Data
 The full dataset is composed of over 14,000 events with various numerical and categorical features. Data leakage was a major concern, and rigorous analysis was used to prevent leakage. Class imbalance between fraud and non-fraud cases (9% vs 91%) may present issues in modeling.  
 
-## Preview of Results: A 4-model Comparison  
+## Preview of Results: 4-model Comparison  
 ![img](img/model_comparison.png)  
 
 ## EDA  
