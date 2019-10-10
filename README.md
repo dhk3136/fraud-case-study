@@ -1,5 +1,6 @@
 # Case Study - Predicting Fraud  
 ### Daniel Kim  
+
 ![lead photo](img/fraud_case_study_dark_room.png)  
 
 ## Overview and Method  
@@ -14,7 +15,7 @@ Tasked with predicting fraud for an event-ticketing company:
 ## Data
 The full dataset is composed of over 14,000 events with various numerical and categorical features. Data leakage was a major concern, and rigorous analysis was used to prevent leakage. Class imbalance between fraud and non-fraud cases (9% vs 91%) may present issues in modeling.  
 
-## 4-model Comparison  
+## Preview of Results: A 4-model Comparison  
 ![img](img/model_comparison.png)  
 
 ## EDA  
