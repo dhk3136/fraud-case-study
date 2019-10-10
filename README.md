@@ -1,13 +1,15 @@
 # Case Study - Predicting Fraud  
-- Jarred Bultema, Daniel Kim, Alyse Record, Peter Schmeiser  
+![lead_img](img/fraud_case_study_dark_room)
+
+- Daniel Kim
 
 ### Method  
 Tasked with predicting fraud for an event-ticketing company:    
-- We conducted a thorough EDA by analyzing data provided by the company  
-  - Cleaned the dataset, utilized feature engineering, generated plots  
-- Experimented with several different models to obtain performance metrics
-- Implemented steps to obtain probabilities for fraudulent activity 
-  - Set probability thresholds for fraud rather than simple yes/no classification  
+- Conducted a thorough EDA by analyzing data provided by the company  
+  - Cleaned, processed the dataset, utilized feature engineering, generated plots  
+- Implemented four models to obtain best performance metrics
+- Applied techniques to understand and predict probabilities for fraudulent activity 
+  - Set probability thresholds for fraud rather than simple binary classification  
 - Developed a Flask app capable of taking in random data for prediction
 
 ### Data
